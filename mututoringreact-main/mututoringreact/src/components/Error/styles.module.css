@@ -1,0 +1,11 @@
+.error {
+    background-color: #e97878;
+    color: white;
+    padding: 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #913232;
+}

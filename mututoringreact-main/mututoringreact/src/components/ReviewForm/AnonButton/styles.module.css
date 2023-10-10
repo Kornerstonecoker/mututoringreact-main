@@ -1,0 +1,24 @@
+
+
+.anonButton {
+    transition: all 0.2s ease-in-out;
+    color: #f6f6f6;
+}
+
+.true {
+    background-color: #43aa8b;
+}
+
+.anonButton:hover {
+    scale: 1.1;
+
+}
+
+.anonButton:active {
+    scale: 0.9;
+
+}
+
+.false {
+    background-color: #851e3e;
+}

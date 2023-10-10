@@ -1,0 +1,32 @@
+.meeting {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f6f6;
+}
+
+.confirmed {
+    background-color: #3c8d65;
+}
+
+.pending {
+    background-color: #ff6f00;
+}
+
+.hidden {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.meeting:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in;
+}

@@ -1,0 +1,77 @@
+.signUp{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+
+
+
+}
+
+.FormWrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+@media screen and (max-width: 400px){
+  .FormWrap{
+    height: 80%;
+  }
+}
+
+.authFormContainer, .signUpForm{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px){
+
+  .authFormContainer{
+    padding: 5rem;
+    color: white;
+    background-color: #1b2533;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  color: #7439db;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.linkBtn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}

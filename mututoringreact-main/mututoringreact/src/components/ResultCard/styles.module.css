@@ -1,0 +1,33 @@
+.course {
+    white-space: break-spaces;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    background-color:  #273445;
+    color: white;
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.course h3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.course:hover {
+    cursor: pointer;
+    background-color: #f6f6f6;
+    color: #273445;
+    transition: all 0.3s ease-in-out;
+}
+
+.course p {
+    align-items: center;
+    text-align: center;
+}

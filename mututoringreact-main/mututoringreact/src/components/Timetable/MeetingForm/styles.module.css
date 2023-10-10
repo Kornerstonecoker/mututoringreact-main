@@ -1,0 +1,153 @@
+.meetingFormContainer {
+    background-color: #273445;
+    padding: 5vh 2vw;
+    border-radius: 10px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tutorDataContainer {
+    margin-top: 3vh;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 20px 40px;
+}
+
+.dropdown {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: #334358;
+    color:white;
+    padding: 1vh 0;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.2s ease-in;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    background-color: #f6f6f6;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+.tutorDataContainer > textarea {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    resize: none;
+    max-height: 100%;
+}
+
+
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    color:white;
+}
+
+.meetingForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.date > div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.meetingFormContainer > h1 {
+    color: #f6f6f6;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meetingForm>button {
+    margin-top: 2vh;
+    color: white;
+    background-color: #3c8d65;
+    padding: 2vh 2vw;
+    margin-bottom: 2vh;
+}
+
+.meetingForm>button:hover {
+    background-color: #f6f6f6;
+    color: #3c8d65;
+    transition: all 0.2s ease-in;
+}
+
+.left {
+    border-right: 2px solid #334358;
+    padding-right: 10px;
+}
+
+.target>a {
+    text-decoration: none;
+    color: white;
+}
+
+.splitter {
+    border: 2px solid #334358;
+    width: 100%;
+    height: 0;
+}
+
+.target {
+    display: grid;
+    width: 100%;
+    grid-template-columns: max-content 1fr;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 2vh;
+}
+
+.footer {
+    margin-top: 2vh;
+}
+
+.comment {
+    word-wrap: break-word;
+}
+
+.btnContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.commentHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.commentTitle {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}

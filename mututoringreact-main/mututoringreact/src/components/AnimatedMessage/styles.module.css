@@ -1,0 +1,12 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    color: white;
+}
+
+.wrapper {
+    transform: scale(2);
+}

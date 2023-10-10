@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f6f6f6;
+    max-width: 1000px;
+    min-width: 700px;
+    border-radius: 10px;
+    gap: 10px;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.container > h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.reviewList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}

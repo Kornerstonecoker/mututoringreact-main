@@ -1,0 +1,15 @@
+.editForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.editForm > button:last-child {
+    grid-column: 1 / 3;
+    background-color: #43aa8b;
+    color: #f6f6f6;
+}

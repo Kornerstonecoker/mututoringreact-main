@@ -1,0 +1,57 @@
+.BusyPopup {
+    background-color: #1b2533;
+    border-radius: 10px;
+    padding: 3vh 5vw;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.BusyPopup > h1 {
+    margin-top: 10px;
+    margin-bottom: 4vh;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.BusyPopup > form {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.BusyPopup > span {
+    grid-column: 1;
+}
+
+.BusyPopup > form > select {
+    padding: 17px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.BusyPopup > form > span {
+    display: flex;
+    border-right: 2px solid #334358;
+    padding-right: 10px;
+    height: fit-content;
+    align-items: center;
+}
+
+.BusyPopup > form > input[type="submit"] {
+    grid-column: 1 / 3;
+    background-color: #43aa8b;
+    color: #f6f6f6;
+}
+
+.BusyPopup > form > input[type="submit"]:hover {
+    background-color: #f6f6f6;
+    color: #43aa8b;
+    transition: all 0.2s ease;
+}
+.BusyPopup > form > input[type="submit"]:active {
+    background-color: rgb(39, 52, 69, 0.2);
+    color: #43aa8b;
+    transition: all 0.1s;
+}

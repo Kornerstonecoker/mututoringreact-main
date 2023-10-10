@@ -1,0 +1,49 @@
+.module {
+    position: relative;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #3c8d65;
+}
+
+.module:hover .removeModuleButton {
+    visibility: visible;
+    transform: scale(1,1);
+    transition: all 0.1s;
+}
+
+.removeModuleButton {
+    transition: all 0.1s;
+    visibility: hidden;
+    transform: scale(0,0);
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+.removeModuleButton:hover {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    top: -10px;
+    right: -10px;
+    transition: all 0.05s;
+}
+
+.removeModuleButton:active {
+    width: 20px;
+    height: 20px;
+    top: -9px;
+    right: -9px;
+    transition: all 0.05s;
+}

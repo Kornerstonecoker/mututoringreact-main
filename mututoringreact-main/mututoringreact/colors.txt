@@ -1,0 +1,4 @@
+rgb(39, 52, 69, 0.2) - bit ligther than background
+#3c8d65 - green
+
+#f6f6f6 - white
